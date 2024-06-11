@@ -1,0 +1,13 @@
+<addon id="plugin.video.resumeaddon" version="1.0.0" name="Resume Addon" provider-name="Your Name">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">An add-on that remembers where you are watching and allows you to resume from that point.</summary>
+        <description lang="en">This add-on saves the playback position and allows you to resume from where you left off.</description>
+        <language>en</language>
+    </extension>
+</addon>
