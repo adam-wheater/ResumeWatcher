@@ -1,5 +1,0 @@
-<settings>
-    <category label="General">
-        <setting id="enable_resume" type="bool" label="Enable Resume" default="true"/>
-    </category>
-</settings>
